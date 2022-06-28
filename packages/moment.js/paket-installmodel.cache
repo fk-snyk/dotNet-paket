@@ -1,0 +1,17 @@
+D: /Content
+D: /Content/Scripts
+F: /Content/Scripts/moment.js
+F: /Content/Scripts/moment-with-locales.js
+F: /Content/Scripts/moment.min.js
+F: /Content/Scripts/moment-with-locales.min.js
+D: /_rels
+F: /_rels/.rels
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/42cc44ff9224461fbbf837e3450da544.psmdcp
+F: /[Content_Types].xml
+F: /Moment.js.nuspec
+F: /moment.js.2.22.1.nupkg
+F: /.signature.p7s

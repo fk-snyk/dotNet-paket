@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Tim Wood,  Iskren Chernev,  Moment.js contributors</dc:creator>
+  <dc:description>A lightweight JavaScript date library for parsing, manipulating, and formatting dates.</dc:description>
+  <dc:identifier>Moment.js</dc:identifier>
+  <version>2.22.1</version>
+  <keywords>JavaScript date time browser node.js</keywords>
+  <lastModifiedBy>NuGet, Version=4.1.0.2450, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Unix 16.7.0.0;.NET Framework 4.5</lastModifiedBy>
+</coreProperties>

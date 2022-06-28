@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IpMatcher</id>
+    <version>1.0.4.2</version>
+    <authors>Joel Christner</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/jchristn/ipmatcher</projectUrl>
+    <description>Library for maintaining a match list of IP addresses and networks and comparing inputs to see if a match exists.</description>
+    <releaseNotes>Fix for SICK-2021-060</releaseNotes>
+    <copyright>(c)2021 Joel Christner</copyright>
+    <tags>ip address match netmask network mask subnet cidr</tags>
+    <repository type="Github" url="https://github.com/jchristn/ipmatcher" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net5.0" />
+      <group targetFramework=".NETStandard2.0" />
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+</package>

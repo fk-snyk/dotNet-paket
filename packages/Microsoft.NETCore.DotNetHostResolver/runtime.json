@@ -1,0 +1,106 @@
+{
+  "runtimes": {
+    "freebsd-x64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.freebsd-x64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-arm": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-arm.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-arm64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-arm64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-musl-arm": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-musl-arm.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-musl-arm64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-musl-arm64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-musl-s390x": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-musl-s390x.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-musl-x64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-musl-x64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-s390x": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-s390x.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "linux-x64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.linux-x64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "osx-arm64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.osx-arm64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "osx-x64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.osx-x64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "tizen.4.0.0-armel": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.tizen.4.0.0-armel.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "tizen.5.0.0-armel": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.tizen.5.0.0-armel.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "win-arm": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.win-arm.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "win-arm64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.win-arm64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "win-x64": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.win-x64.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    },
+    "win-x86": {
+      "#import": [],
+      "Microsoft.NETCore.DotNetHostResolver": {
+        "runtime.win-x86.Microsoft.NETCore.DotNetHostResolver": "[6.0.6, )"
+      }
+    }
+  }
+}

@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NuGet.CommandLine.XPlat</name>
+    </assembly>
+    <members>
+        <member name="M:NuGet.CommandLine.XPlat.Program.MainInternal(System.String[],NuGet.CommandLine.XPlat.CommandOutputLogger)">
+            <summary>
+            Internal Main. This is used for testing.
+            </summary>
+        </member>
+        <member name="M:NuGet.CommandLine.XPlat.Program.TryParseVerbosity(System.String[],Microsoft.Dnx.Runtime.Common.CommandLine.CommandOption,NuGet.Common.LogLevel@)">
+            <summary>
+            Attempts to parse the desired log verbosity from the arguments. Returns true if the
+            arguments contains a valid verbosity option. If no valid verbosity option was
+            specified, the log level is set to a default log level and false is returned.
+            </summary>
+        </member>
+        <member name="T:NuGet.CommandLine.XPlat.Strings">
+            <summary>
+               A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.ResourceManager">
+            <summary>
+               Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Culture">
+            <summary>
+               Overrides the current thread's CurrentUICulture property for all
+               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.ApiKey_Description">
+            <summary>
+               Looks up a localized string similar to The API key for the server..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.App_FullName">
+            <summary>
+               Looks up a localized string similar to NuGet Command Line.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.BasePath_Description">
+            <summary>
+               Looks up a localized string similar to The base path of the files defined in the nuspec file..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Build_Description">
+            <summary>
+               Looks up a localized string similar to Determines if the project should be built before building the package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.CommandLine_Warning">
+            <summary>
+               Looks up a localized string similar to WARNING: {0}.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.ConsoleConfirmMessage">
+            <summary>
+               Looks up a localized string similar to {0} (y/N) .
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.ConsoleConfirmMessageAccept">
+            <summary>
+               Looks up a localized string similar to y.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Delete_Description">
+            <summary>
+               Looks up a localized string similar to Deletes a package from the server..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Delete_MissingArguments">
+            <summary>
+               Looks up a localized string similar to Please provide arguments for package id and package version..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Delete_PackageIdAndVersion_Description">
+            <summary>
+               Looks up a localized string similar to The Package Id and version..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.DisableBuffering_Description">
+            <summary>
+               Looks up a localized string similar to Disable buffering when pushing to an HTTP(S) server to decrease memory usage..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Error_MissingSourceParameter">
+            <summary>
+               Looks up a localized string similar to Source parameter was not specified..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Exclude_Description">
+            <summary>
+               Looks up a localized string similar to Specifies one or more wildcard patterns to exclude when creating a package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.ExcludeEmptyDirectories_Description">
+            <summary>
+               Looks up a localized string similar to Prevent inclusion of empty directories when building the package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.ForceEnglishOutput_Description">
+            <summary>
+               Looks up a localized string similar to Forces the application to run using an invariant, English-based culture..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.IncludeReferencedProjects_Description">
+            <summary>
+               Looks up a localized string similar to Include referenced projects either as dependencies or as part of the package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.InputFile_Description">
+            <summary>
+               Looks up a localized string similar to Specify the location of the nuspec or project file to create a package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_Committing">
+            <summary>
+               Looks up a localized string similar to Committing restore....
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_FoundProjectRoot">
+            <summary>
+               Looks up a localized string similar to Found project root directory: {0}..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_LoadedProject">
+            <summary>
+               Looks up a localized string similar to Loaded project {0} from {1}..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_ReadingProject">
+            <summary>
+               Looks up a localized string similar to Reading project file {0}..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_RestoreComplete">
+            <summary>
+               Looks up a localized string similar to Restore completed in {0}ms..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_RestoreFailed">
+            <summary>
+               Looks up a localized string similar to Restore failed in {0}ms..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_RunningNonParallelRestore">
+            <summary>
+               Looks up a localized string similar to Running non-parallel restore..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_RunningParallelRestore">
+            <summary>
+               Looks up a localized string similar to Running restore with {0} concurrent jobs..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Log_UsingPackagesDirectory">
+            <summary>
+               Looks up a localized string similar to Using packages directory: {0}..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.MinClientVersion_Description">
+            <summary>
+               Looks up a localized string similar to Set the minClientVersion attribute for the created package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.MsBuildVersion_Description">
+            <summary>
+               Looks up a localized string similar to Specifies the version of MSBuild to be used with this command. Supported values are 4, 12, 14. By default the MSBuild in your path is picked, otherwise it defaults to the highest installed version of MSBuild..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.NoApiKeyFound">
+            <summary>
+               Looks up a localized string similar to No API Key was provided and no API Key could be found for {0}. To save an API Key for a source use the &apos;setApiKey&apos; command..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.NoDefaultExcludes_Description">
+            <summary>
+               Looks up a localized string similar to Prevent default exclusion of NuGet package files and files and folders starting with a dot e.g. .svn..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.NonInteractive_Description">
+            <summary>
+               Looks up a localized string similar to Do not prompt for user input or confirmations..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.NoPackageAnalysis_Description">
+            <summary>
+               Looks up a localized string similar to Specify if the command should not run package analysis after building the package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.NoSymbols_Description">
+            <summary>
+               Looks up a localized string similar to If a symbols package exists, it will not be pushed to a symbols server..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.NuGetDocs">
+            <summary>
+               Looks up a localized string similar to http://docs.nuget.org/.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.OutputDirectory_Description">
+            <summary>
+               Looks up a localized string similar to Specifies the directory for the created NuGet package file. If not specified, uses the current directory.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.OutputNuGetVersion">
+            <summary>
+               Looks up a localized string similar to {0} Version: {1}.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.PackageCommandAttemptingToBuildPackage">
+            <summary>
+               Looks up a localized string similar to Attempting to build package from &apos;{0}&apos;..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.PackageCommandInvalidMinClientVersion">
+            <summary>
+               Looks up a localized string similar to The value of MinClientVersion argument is not a valid version..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.PackageVersionInvalid">
+            <summary>
+               Looks up a localized string similar to Version string specified &apos;{0}&apos; is invalid..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.PackCommand_Description">
+            <summary>
+               Looks up a localized string similar to Creates a NuGet package based on the specified nuspec or project file.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Push_Description">
+            <summary>
+               Looks up a localized string similar to Pushes a package to the server and publishes it..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Push_InvalidTimeout">
+            <summary>
+               Looks up a localized string similar to Invalid timeout parameter value..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Push_MissingArguments">
+            <summary>
+               Looks up a localized string similar to Please specify the path to the package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Push_Package_ApiKey_Description">
+            <summary>
+               Looks up a localized string similar to Specify the path to the package and your API key to push the package to the server..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Push_Timeout_Description">
+            <summary>
+               Looks up a localized string similar to Specifies the timeout for pushing to a server in seconds. Defaults to 300 seconds (5 minutes)..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Push_Timeout_Error">
+            <summary>
+               Looks up a localized string similar to Pushing took too long. You can change the default timeout of 300 seconds by using the --timeout &lt;seconds&gt; option with the push command..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Arg_ProjectName_Description">
+            <summary>
+               Looks up a localized string similar to List of projects and project folders to restore. Each value can be: a path to a project.json or global.json file, or a folder to recursively search for project.json files..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Description">
+            <summary>
+               Looks up a localized string similar to Restores packages for a project and writes a lock file..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_ConfigFile_Description">
+            <summary>
+               Looks up a localized string similar to The NuGet configuration file to use..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_DisableParallel_Description">
+            <summary>
+               Looks up a localized string similar to Disables restoring multiple projects in parallel..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_Fallback_Description">
+            <summary>
+               Looks up a localized string similar to A list of packages sources to use as a fallback..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_IgnoreFailedSource_Description">
+            <summary>
+               Looks up a localized string similar to Only warning failed sources if there are packages meeting version requirement.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_NoCache_Description">
+            <summary>
+               Looks up a localized string similar to Do not cache packages and http requests..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_Packages_Description">
+            <summary>
+               Looks up a localized string similar to Directory to install packages in..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Restore_Switch_Source_Description">
+            <summary>
+               Looks up a localized string similar to Specifies a NuGet package source to use during the restore..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Serviceable_Description">
+            <summary>
+               Looks up a localized string similar to Sets the nuspec serviceable element to true..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Source_Description">
+            <summary>
+               Looks up a localized string similar to Specifies the server URL.
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Suffix_Description">
+            <summary>
+               Looks up a localized string similar to Appends a pre-release suffix to the internally generated version number..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Switch_Verbosity">
+            <summary>
+               Looks up a localized string similar to The verbosity of logging to use. Allowed values: Debug, Verbose, Information, Minimal, Warning, Error..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.SymbolApiKey_Description">
+            <summary>
+               Looks up a localized string similar to The API key for the symbol server..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Symbols_Description">
+            <summary>
+               Looks up a localized string similar to Determines if a package containing sources and symbols should be created. When specified with a nuspec, creates a regular NuGet package file and the corresponding symbols package..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.SymbolSource_Description">
+            <summary>
+               Looks up a localized string similar to Specifies the symbol server URL. If not specified, nuget.smbsrc.net is used when pushing to nuget.org..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Tool_Description">
+            <summary>
+               Looks up a localized string similar to Determines if the output files of the project should be in the tool folder..
+            </summary>
+        </member>
+        <member name="P:NuGet.CommandLine.XPlat.Strings.Version_Description">
+            <summary>
+               Looks up a localized string similar to Overrides the version number from the nuspec file..
+            </summary>
+        </member>
+        <member name="M:NuGet.CommandLine.XPlat.NativeMethods.Unix.GetUname">
+            <summary>
+            Returns the uname (short for unix name) that has the 
+            name, version and details about the current machine and OS running on it.
+            </summary>
+        </member>
+        <member name="T:NuGet.CommandLine.XPlat.CommandOutputLogger">
+            <summary>
+            Logger to print formatted command output.
+            </summary>
+        </member>
+        <member name="T:NuGet.Shared.HashCodeCombiner">
+            <summary>
+            Hash code creator, based on the original NuGet hash code combiner/ASP hash code combiner implementations
+            </summary>
+        </member>
+        <member name="M:NuGet.Shared.HashCodeCombiner.GetHashCode(System.Object[])">
+            <summary>
+            Create a unique hash code for the given set of items
+            </summary>
+        </member>
+        <member name="M:NuGet.Shared.Extensions.OrderedEquals``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1},System.Collections.Generic.IEqualityComparer{``0})">
+            <summary>
+            Compares two enumberables for equality, ordered according to the specified key and optional comparer. Handles null values gracefully.
+            </summary>
+            <typeparam name="TSource">The type of the list</typeparam>
+            <typeparam name="TKey">The type of the sorting key</typeparam>
+            <param name="self">This list</param>
+            <param name="other">The other list</param>
+            <param name="keySelector">The function to extract the key from each item in the list</param>
+            <param name="orderComparer">An optional comparer for comparing keys</param>
+            <param name="sequenceComparer">An optional comparer for sequences</param>
+        </member>
+    </members>
+</doc>

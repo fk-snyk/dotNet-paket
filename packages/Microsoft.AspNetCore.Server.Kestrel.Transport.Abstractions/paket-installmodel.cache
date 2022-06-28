@@ -1,0 +1,15 @@
+D: /_rels
+F: /_rels/.rels
+D: /lib
+D: /lib/netstandard2.0
+F: /lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.xml
+F: /lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/a4531184503b4c9d8113745a692175cb.psmdcp
+F: /[Content_Types].xml
+F: /microsoft.aspnetcore.server.kestrel.transport.abstractions.2.2.0.nupkg
+F: /Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.nuspec
+F: /.signature.p7s

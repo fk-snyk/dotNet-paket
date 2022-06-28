@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NuGet.CommandLine.XPlat</id>
+    <version>3.5.0</version>
+    <authors>NuGet.CommandLine.XPlat</authors>
+    <owners>NuGet.CommandLine.XPlat</owners>
+    <licenseUrl>https://raw.githubusercontent.com/NuGet/NuGet.Client/dev/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/NuGet/NuGet.Client</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NuGet 3 restore for dotnet CLI, DNX, and UWP</description>
+    <copyright>Copyright .NET Foundation. All rights reserved.</copyright>
+    <tags></tags>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="Microsoft.NETCore.App" version="[1.0.0, )" />
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="[4.0.0, )" />
+        <dependency id="NuGet.Commands" version="[3.5.0, )" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="[4.1.1, )" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Runtime.InteropServices.RuntimeInformation" version="[4.0.0, )" />
+        <dependency id="NuGet.Commands" version="[3.5.0, )" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="[4.1.1, )" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

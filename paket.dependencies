@@ -1,0 +1,6 @@
+source https://api.nuget.org/v3/index.json
+
+nuget opcfoundation.netstandard.opc.ua = 1.4.353.15  
+nuget nuget.commandline.xplat = 3.5.0
+nuget moment.js = 2.22.1
+nuget ipmatcher = 1.0.4.2

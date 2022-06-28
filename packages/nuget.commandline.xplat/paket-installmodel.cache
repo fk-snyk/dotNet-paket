@@ -1,0 +1,14 @@
+D: /_rels
+F: /_rels/.rels
+D: /lib
+D: /lib/netcoreapp1.0
+F: /lib/netcoreapp1.0/NuGet.CommandLine.XPlat.xml
+F: /lib/netcoreapp1.0/NuGet.CommandLine.XPlat.runtimeconfig.json
+F: /lib/netcoreapp1.0/NuGet.CommandLine.XPlat.dll
+D: /lib/net46
+F: /lib/net46/NuGet.CommandLine.XPlat.xml
+F: /lib/net46/NuGet.CommandLine.XPlat.exe
+F: /NuGet.CommandLine.XPlat.nuspec
+F: /[Content_Types].xml
+F: /.signature.p7s
+F: /nuget.commandline.xplat.3.5.0.nupkg
